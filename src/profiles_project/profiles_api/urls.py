@@ -4,5 +4,5 @@ from . import views
 
 
 urlpatterns = [
-    url(r'^hello-view/', views.HelloAPiView.as_view()),
+    url(r'^hello-view/', views.HelloAPIView.as_view()),
 ]
